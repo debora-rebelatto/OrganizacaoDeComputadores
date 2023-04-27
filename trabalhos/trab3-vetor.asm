@@ -1,14 +1,14 @@
 .data
-	vetor:
-		.word 7, 3, -9, 11, 4, 5, -1, 0, 6, 4  # example array of integers
-	tamanho: .word 10
-	resultado: .asciiz "Maior valor do array:  "
+  vetor:
+    .word 7, 3, -9, 11, 4, 5, -1, 0, 6, 4  # example array of integers
+  tamanho: .word 10
+  resultado: .asciiz "Maior valor do array:  "
 .text
 main:
   la t0, vetor               # load address of vetor into x1
-	lw t1, tamanho             # load tamanho into t0
+  t1, tamanho             # load tamanho into t0
   li s0, 0                   # initialize maior to 0
-	li s1, 0                   # initialize x to 0
+  li s1, 0                   # initialize x to 0
 loop_start:
   lw s2, 0(t0)               # load vetor[x] into s2
   bge s2, s0, else_block     # if vetor[x] >= maior, jump to else_block
