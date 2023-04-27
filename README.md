@@ -1,9 +1,9 @@
 # Organização de Computadores
 
 ## Trabalhos
-[Trabalho 1: Conjunto de instruções - armazenamento interno](./trabalhos/trab1.md)
-[Trabalho 2 - Loop](./trabalhos/trab2-loop.asm)
-[Trabalho 3 - Vetor](./trabalhos/trab3-vetor.asm)
+[Trabalho 1: Conjunto de instruções - armazenamento interno](./trabalhos/trab1.md)  
+[Trabalho 2 - Loop](./trabalhos/trab2-loop.asm)  
+[Trabalho 3 - Vetor](./trabalhos/trab3-vetor.asm)  
 
 ## Aulas:
 
