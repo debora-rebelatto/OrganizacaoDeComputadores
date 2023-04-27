@@ -1,11 +1,11 @@
 .data
-	vetor:
-		.word 7, 3, -9, 11, 4, 5, -1, 0, 6, 4  # example array of integers
-	tamanho: .word 10
+  vetor:
+    .word 7, 3, -9, 11, 4, 5, -1, 0, 6, 4  # example array of integers
+  tamanho: .word 10
 .text
 main:
   la t0, vetor               # load address of vetor into x1
-	lw t1, tamanho             # load tamanho into t0
+  lw t1, tamanho             # load tamanho into t0
   li s0, 0                   # initialize maior to 0
   li s1, 0                   # initialize x to 0
 loop_start:
