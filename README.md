@@ -1,4 +1,4 @@
-# Organização de Computadores
+# 🖥️ Organização de Computadores
 
 ## Trabalhos
 [Trabalho 1: Conjunto de instruções - armazenamento interno](./trabalhos/trab1.md)  
