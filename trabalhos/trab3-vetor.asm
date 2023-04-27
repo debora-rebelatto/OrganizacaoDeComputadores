@@ -1,3 +1,9 @@
+# Trabalho 3
+# A partir da declaração de um array de inteiros, implemente um programa em Assembly RISC-V que encontre o maior valor do array.
+# O tamanho do array deve ser armazenado em uma variável.
+# O resultado deve ser impresso na tela.
+# Array: [7, 3, -9, 11, 4, 5, -1, 0, 6, 4]
+
 # Exemplo em Javascript:
 # const vetor = [7, 3, -9, 11, 4, 5, -1, 0, 6, 4]
 # const tamanho = vetor.length
@@ -20,7 +26,7 @@
 .text
 main:
   la t0, vetor               # load address of vetor into x1
-  t1, tamanho             # load tamanho into t0
+  lw t1, tamanho             # load tamanho into t0
   li s0, 0                   # initialize maior to 0
   li s1, 0                   # initialize x to 0
 loop_start:
@@ -36,6 +42,10 @@ next_iteration:
   # s0 now contains the largest number in vetor
 
 print_result:
+  lw a0, resultado           # load address of resultado into a0
+  li a7, 4                   # load system call number for printing a string
+  ecall                      # make the system call
+
   mv a0, s0                  # move the value of maior into a0 (the argument register)
   li a7, 1                   # load system call number for printing an integer
   ecall                      # make the system call
