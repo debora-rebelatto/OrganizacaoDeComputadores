@@ -1,3 +1,17 @@
+# Exemplo em Javascript:
+# const vetor = [7, 3, -9, 11, 4, 5, -1, 0, 6, 4]
+# const tamanho = vetor.length
+# let maior = 0
+# let x = 0
+# do {
+#     const elemento = vetor[x]
+#     if (elemento >= maior) {
+#         maior = elemento
+#     }
+#     x += 1
+# } while (x < tamanho)
+# console.log(`Maior valor do array: ${maior}`)
+
 .data
   vetor:
     .word 7, 3, -9, 11, 4, 5, -1, 0, 6, 4  # example array of integers

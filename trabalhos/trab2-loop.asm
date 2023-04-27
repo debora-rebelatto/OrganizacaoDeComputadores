@@ -1,31 +1,30 @@
-# https://github.com/debora-rebelatto/Org2023/blob/main/trabalhos/trab2.asm
+# Exemplo em JavaScript
+# let z = 0; // initialize z to 0
+# let x = 10; // initialize x to 10
+
+# while (x > 0) {
+#     z += x; // add x to z
+#     x -= 1; // decrement x by 1
+# }
+
+# console.log(z); // print the value of z
+
 .data
     z: .word 0    # initialize z to 0
-	newline: .ascii "\n"
 
 .text
 main:
     li s0, 10    # initialize x to 10
-    lw t0, z     # usar load word para inizializa
+    lw t0, z     # usar load word para inizializar
 
 loop:
     add t0, t0, s0  # add x to z
     addi s0, s0, -1  # decrement x by 1
-
-printz:
-	# print the value of z
-	 lw a0, z     	# load the value of z from memory into a0
-	 li a0, 1          		# load the print integer syscall number into a7
-	 ecall             		# execute the syscall to print z to console
-
-printnewline:
-    # print a newline character
-    la a0, newline    # load the address of newline into a0
-    li a7, 4          # load the print string syscall number into a7
-    ecall             # execute the syscall to print newline to console
-
     bgt s0, zero, loop  # loop while x > 0
 
-    la a0, z
-    li a7, 1
-    ecall
+print_result:
+    mv a0, t0                  # move the value of maior into a0 (the argument register)
+    li a7, 1                   # load system call number for printing an integer
+    ecall                      # make the system call
+
+    jr ra                      # return from subroutine
