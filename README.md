@@ -3,6 +3,7 @@
 ## Trabalhos
 
 [Lista de exemplos de exercícios](./examples/exercises.md)  
+[Lista de exercícios Caimi](./exercises/exercises-caimi.md)  
 [Trabalho 1: Conjunto de instruções - armazenamento interno](./trabalhos/trab1.md)  
 [Trabalho 2 - Loop](./trabalhos/trab2-loop.asm)  
 [Trabalho 3 - Vetor](./trabalhos/trab3-vetor.asm)
