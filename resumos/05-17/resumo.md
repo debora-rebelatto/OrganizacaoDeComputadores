@@ -1,3 +1,25 @@
+# Implementação Monociclo
+
+## Introdução
+
+## Formato de Instrução
+
+## R-type
+
+## I-type
+
+## S-type
+
+## B-type
+
+## U-type
+
+## J-type
+
+## Modos de instrução
+
+## Ciclo de Instrução
+
 # Ciclo de Instrução
 
 1. Buscar a instrução na memória de programa
@@ -7,3 +29,14 @@
 5. Escrever o resultado da instrução
 
 # Modos de Endereçamento
+
+# Busca da Instrução
+
+Três elementos são necessários para executar uma busca de
+instrução
+
+- A memória onde estão armazenadas as instruções
+- O contador de programa (PC) para armazenar o endereço da instrução
+- Um somador é necessário para calcular o endereço da próxima
+  instrução
+
