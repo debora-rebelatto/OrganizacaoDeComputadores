@@ -10,6 +10,11 @@
 
 ## Aulas:
 
+Resumos:
+[Aula 04/26](./resumos/04-26/aula.md)
+[Aula 10/05](./resumos/05-10/ISA.md)
+[Aula 17/05](./resumos/05-17/resumo.md)
+
 - Introdução
 
 - Arquitetura do conjunto de instruções e modos de endereçamento
