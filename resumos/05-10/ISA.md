@@ -10,11 +10,11 @@ SLLI (Shift Left Logical Immediate).
 SRLI (Shift Right Logical Immediate).
 SRAI (Shift Right Arithmetic Immediate).
 
-2048 1024 512 256 128 64 32 16 8 4 2 1
-0 0 0 0 0 0 0 0 0 0 0 0 = Isso é 0
-0 0 0 0 0 0 0 0 0 0 0 1 = Isso é 1
-1 1 1 1 1 1 1 1 1 1 1 0 = Isso é -2
-1 1 1 1 1 1 1 1 1 1 0 0 = Isso é -4
+2048 1024 512 256 128 64 32 16 8 4 2 1  
+0 0 0 0 0 0 0 0 0 0 0 0 = Isso é 0  
+0 0 0 0 0 0 0 0 0 0 0 1 = Isso é 1  
+1 1 1 1 1 1 1 1 1 1 1 0 = Isso é -2  
+1 1 1 1 1 1 1 1 1 1 0 0 = Isso é -4  
 
 | Instruction |    const     |   2   |  r11  | f3  |  rd   | opcode  |
 | :---------: | :----------: | :---: | :---: | :-: | :---: | :-----: |
