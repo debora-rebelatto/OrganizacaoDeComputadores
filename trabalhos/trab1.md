@@ -39,14 +39,14 @@ pow op ; w <- w (op)
 
 b) O programa assembly que utiliza o conjunto de instruções definido no item (a) que implementa a seguinte equação:
 
-MOVMWI 5;
-SUB B;
-MOVMWI X;
-MOVMWI 2;
-ADD A;
-MUL X;
-MOVMWI 3;
-POW A;
-SUB C;
-DIV X;
-MOVMWI S
+MOVMWI 5;  
+SUB B;  
+MOVMWI X;  
+MOVMWI 2;  
+ADD A;  
+MUL X;  
+MOVMWI 3;  
+POW A;  
+SUB C;  
+DIV X;  
+MOVMWI S  
