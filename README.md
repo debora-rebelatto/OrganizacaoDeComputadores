@@ -6,12 +6,11 @@
 [Trabalho 2 - Loop](./trabalhos/trab2-loop.asm)  
 [Trabalho 3 - Vetor](./trabalhos/trab3-vetor.asm)
 
-## Aulas:
+## Provas:
 
-Resumos:  
-[Aula 04/26](./resumos/04-26/aula.md)  
-[Aula 10/05](./resumos/05-10/ISA.md)  
-[Aula 17/05](./resumos/05-17/resumo.md)
+[Prova 1](./provas/prova1.md)
+
+## Conteúdo
 
 - Introdução
 

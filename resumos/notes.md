@@ -3,6 +3,8 @@
 ## Arquitetura de Von Neumann
 A arquitetura de Von Neumann é uma arquitetura de computador que foi proposta por John von Neumann em 1945. Ela é baseada em um modelo de computador que possui um processador central, memória de programa e memória de dados. A arquitetura de Von Neumann é a base para a maioria dos computadores modernos.
 
+O que define a arquitetura de Von Neumann
+
 ### Processador
 O processador é o componente responsável por executar as instruções do programa. Ele é composto por um conjunto de registradores e uma unidade de controle. O conjunto de registradores é composto por registradores de propósito geral e registradores de propósito especial. Os registradores de propósito geral são utilizados para armazenar dados e endereços de memória. Os registradores de propósito especial são utilizados para armazenar endereços de memória e flags de controle. A unidade de controle é responsável por controlar o fluxo de execução do programa.
 
