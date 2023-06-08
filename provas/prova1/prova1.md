@@ -9,7 +9,7 @@
    S = (A^2 - (\frac{C}{A})) * (\frac{D+B}{2^C})
    $$
 
-a) Defina a sintaxe e a semântica das instruções;
+a) Defina a sintaxe e a semântica das instruções;  
 b) Apresente o programa que implementa a equação acima utilizando o conjunto de instruções apresentados no item anterior.
 
 4. (2.0) Considerando o formato das instruções do processador RISC-V, qual o código de máquina (binário) deste programa?

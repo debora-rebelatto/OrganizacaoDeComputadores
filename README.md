@@ -8,7 +8,7 @@
 
 ## Provas:
 
-[Prova 1](./provas/prova1.md)
+[Prova 1](./provas/prova1/prova1.md)
 
 ## Conteúdo
 
