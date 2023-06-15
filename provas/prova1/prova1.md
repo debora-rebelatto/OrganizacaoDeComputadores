@@ -31,4 +31,4 @@ out_laco:
 
 5. (2.5) Considere os seguintes valores presentes na memória de programa e no banco de registradores:
 
-<img src="./questao5.jpg">
+<img src="./imgs/questao5.jpg">
