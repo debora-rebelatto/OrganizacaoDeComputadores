@@ -11,19 +11,34 @@
 
 **a)**
 sintática ; semântica
-movwm op ; (op) <- w
-movwm op ; w <- (op)
-movwi op ; w <- op
-mul op ; w <- w \* (op)
-div op ; w <- w / (op)
-add op ; w <- w + (op)
-sub op ; w <- w - (op)
-pow op ; w <- w ^ (op)
-powi op ; w <- w ^ op
+movwm op  ; (op) <- w
+movwm op  ; w <- (op)
+movwi op  ; w <- op
+mul op    ; w <- w \* (op)
+div op    ; w <- w / (op)
+add op    ; w <- w + (op)
+sub op    ; w <- w - (op)
+pow op    ; w <- w ^ (op)
+powi op   ; w <- w ^ op
 
 **b)**
 movwi 2 ; w <- 2
-pot c ; w <- 2 ^ 2
+pot c   ; w <- 2^c
+movwm x ; x <- 2^c
+movmw d ; w <- d
+som b   ; w <- d + b
+div x   ; w <- (d + b) / 2^c
+movwm z ;
+movmw a ; w <- a
+poti 2  ; w <- a^2
+movwm r ; r <- a^2
+movmw c ; w <- c
+div a   ; w + (c/a)
+movmw p ;
+movmw r ;
+sub p   ;
+mul z   ;
+movmw s ;
 
 ## 4.
 
@@ -49,5 +64,3 @@ add a3, zero, a7
 ret
 
 ## 5.
-
-<img src="">
