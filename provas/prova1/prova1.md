@@ -31,4 +31,48 @@ out_laco:
 
 5. (2.5) Considere os seguintes valores presentes na memória de programa e no banco de registradores:
 
-<img src="./imgs/questao5.jpg">
+Memória de programa:
+| Endereço | Valor                            |
+| :------: | :------------------------------: |
+| 200      | 11111111110000000000010100010011 |
+| 204      | 00000000100001010000100001100011 |
+| 208      | 00000000011000101000010010110011 |
+| 212      | 00000001010001001010001100000011 |
+| 216      | 11111111010111111111000001101111 |
+| 220      | 00000000011010010010000000100011 |
+
+Banco de Registradores:
+| x0    | zero  | 0x00000000 |
+| :---: | :---: | :--------: |
+| x1    | ra    | 0x00000000 |
+| x2    | sp    | 0x7ffffff0 |
+| x3    | gp    | 0x10000000 |
+| x4    | tp    | 0x00000000 |
+| x5    | t0    | 0x00000000 |
+| x6    | t1    | 0x00000007 |
+| x7    | t2    | 0x00000000 |
+| x8    | s0    | 0x00000000 |
+| x9    | s1    | 0x00000000 |
+| x10   | a0    | 0x00000000 |
+| x11   | a1    | 0x00000000 |
+| x12   | a2    | 0x00000000 |
+| x13   | a3    | 0x00000000 |
+| x14   | a4    | 0x00000000 |
+| x15   | a5    | 0x00000000 |
+| x16   | a6    | 0x00000000 |
+| x17   | a7    | 0x00000000 |
+| x18   | s2    | 0x00000000 |
+
+Apresente os valores presentes nas posições A, B, C, D e E nos dois primeiros ciclos de clock do processador RISC-V monociclo, considerando que o PC inicia com o valor 204.
+
+| Posição | Ciclo 1 | Ciclo 2 |
+| :-----: | :-----: | :-----: |
+| A       |         |         |
+| B       |         |         |
+| C       |         |         |
+| D       |         |         |
+| E       |         |         |
+| F       |         |         |
+| G       |         |         |
+| H       |         |         |
+| J       |         |         |
