@@ -19,7 +19,8 @@ Dentro da unidade de lógica e aritmética havia um registrador interno especial
 
 <img src="./imgs/VonneumannDiagram.jpeg">
 
-Referências:
+**Referências:**
+
 https://en.wikipedia.org/wiki/Von_Neumann_architecture
 
 https://www.geeksforgeeks.org/computer-organization-von-neumann-architecture/
