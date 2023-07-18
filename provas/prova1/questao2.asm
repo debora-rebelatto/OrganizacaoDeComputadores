@@ -1,19 +1,22 @@
-# using a do while, create an loop that goes through an array and stores the largest and smallest number in variables
-# print the difference between the largest and smallest number
-const vetor = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-let i = 0
-let maior = 0
-let menor = 0
+# function diferenca(a0, a1) {
+#   var vetor = a0; // endereço do vetor
+#   var tamanho = a1; // tamanho do vetor
 
-do {
-  if (vetor[i] > maior) {
-    maior = vetor[i]
-  } else if (vetor[i] < menor) {
-    menor = vetor[i]
-  }
-  i++
-} while (i < vetor.length)
+#   var maior = vetor[0]; // assume o primeiro elemento como o maior
+#   var menor = vetor[0]; // assume o primeiro elemento como o menor
 
-console.log(maior - menor)
+#   var i = 1; // começa a iteração a partir do segundo elemento
 
-#
+#   do {
+#     if (vetor[i] > maior) {
+#       maior = vetor[i]; // atualiza o maior valor, se necessário
+#     }
+#     if (vetor[i] < menor) {
+#       menor = vetor[i]; // atualiza o menor valor, se necessário
+#     }
+#     i++; // incrementa o contador
+#   } while (i < tamanho); // continua enquanto i for menor que o tamanho
+
+#   return maior - menor; // retorna a diferença entre o maior e o menor valor
+#}
+

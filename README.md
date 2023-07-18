@@ -4,7 +4,13 @@
 
 [Trabalho 1: Conjunto de instruções - armazenamento interno](./trabalhos/trab1.md)  
 [Trabalho 2 - Loop](./trabalhos/trab2-loop.asm)  
-[Trabalho 3 - Vetor](./trabalhos/trab3-vetor.asm)
+[Trabalho 3 - Vetor](./trabalhos/trab3-vetor.asm)  
+[Atividade Cache](./trabalhos/Atividade_Cache.pdf)  
+[Atividade Conflitos](./trabalhos/Atividade_conflitos.pdf)
+
+## Resumos:
+
+[VonNeumann](./resumos/1-VonNeumann.md)
 
 ## Provas:
 
