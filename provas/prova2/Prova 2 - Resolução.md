@@ -23,20 +23,20 @@ Anote uma tabela com os números elevados a potências de 2, começando por 0 e 
 | 2^15 | 32768 |
 | 2^16 | 65536 |
 
-Como calcular:
-A próxima potência é o resultado da potência anterior multiplicado por 2 ou somado com ele mesmo.
-Encontre o número do bloco
-MP (Memória Principal) = 64K células => 2^16 células
-K (Tamanho da Cache) = 32 linhas => 2^5 linhas
+Como calcular:  
+A próxima potência é o resultado da potência anterior multiplicado por 2 ou somado com ele mesmo.  
+Encontre o número do bloco  
+MP (Memória Principal) = 64K células => 2^16 células  
+K (Tamanho da Cache) = 32 linhas => 2^5 linhas  
 Bloco = ?
 
-MP = B \* K
-2^16 = B \* 2^5
-B = 2^16 / 2^5
-B = 2^(16 - 5)
+MP = B \* K  
+2^16 = B \* 2^5  
+B = 2^16 / 2^5  
+B = 2^(16 - 5)  
 B = 2^11 = 2048
 
-Número de bloco usa 11 bits (2^11 = 2048)
+Número de bloco usa 11 bits (2^11 = 2048)  
 Deslocamento usa 5 bits (2^5 = 32)
 
 a) Qual é o número do bloco correspondente ao endereço ABCD_16?
@@ -73,16 +73,16 @@ Aqui já temos a resposta da letra a, que é o número do bloco: 1010 1011 110. 
 
 Da direita para a esquerda, temos:
 
-0 \* 2^0 = 0
-1 \* 2^1 = 2
-1 \* 2^2 = 4
-1 \* 2^3 = 8
-1 \* 2^4 = 16
-0 \* 2^5 = 32
-1 \* 2^6 = 64
-0 \* 2^7 = 0
-1 \* 2^8 = 256
-0 \* 2^9 = 0
+0 \* 2^0 = 0  
+1 \* 2^1 = 2  
+1 \* 2^2 = 4  
+1 \* 2^3 = 8  
+1 \* 2^4 = 16  
+0 \* 2^5 = 32  
+1 \* 2^6 = 64  
+0 \* 2^7 = 0  
+1 \* 2^8 = 256  
+0 \* 2^9 = 0  
 1 \* 2^10 = 1024
 
 0 + 2 + 4 + 8 + 16 + 0 + 64 + 0 + 256 + 0 + 1024 = 1374
@@ -90,21 +90,21 @@ Da direita para a esquerda, temos:
 O número do bloco é 1374.
 
 b) Considerando o mapeamento direto:
+
 b1) Qual a divisão do endereço do ponto de vista da cache? Justifique.
 
-A divisão no mapeamento direto é feita da seguinte forma:
+A divisão no mapeamento direto é feita da seguinte forma:  
 Rótulo | Linha de Destinho | Deslocamento
 
-Deslocamento = 32 células = 2^5 = 5 bits
+Deslocamento = 32 células = 2^5 = 5 bits  
 Linha de Destino = 32 linhas = 2^5 = 5 bits
 
-Calcular o rótulo:
-Calcular a proporção de 64K blocos da MP para cada linha da cache:
-
+Calcular o rótulo:  
+Calcular a proporção de 64K blocos da MP para cada linha da cache
 Rótulo =
 2048 blocos / 32 linhas = 64 blocos por linha
 
-Assim:
+Assim:  
 **Rótulo = 64 blocos = 2^6 = 6 bits**
 
 Precisamos de 6 bits para o rótulo, 5 bits para a linha de destino e 5 bits para o deslocamento. Totalizando 16 bits.
@@ -126,10 +126,10 @@ Mas vamos converter para decimal.
 
 Da direita para a esquerda, temos:
 
-0 \* 2^0 = 0
-1 \* 2^1 = 2
-1 \* 2^2 = 4
-1 \* 2^3 = 8
+0 \* 2^0 = 0  
+1 \* 2^1 = 2  
+1 \* 2^2 = 4  
+1 \* 2^3 = 8  
 1 \* 2^4 = 16
 
 0 + 2 + 4 + 8 + 16 = 30
@@ -195,14 +195,14 @@ pula:
 fim: nop
 ```
 
-Explique os estários do pipeline:
-IF: Busca a instrução na memória.
-OF: Decodifica a instrução.
-EX: Executa a instrução.
-MEM: Acessa a memória.
+Explique os estários do pipeline:  
+IF: Busca a instrução na memória.  
+OF: Decodifica a instrução.  
+EX: Executa a instrução.  
+MEM: Acessa a memória.  
 WB: Escreve o resultado no registrador.
 
-Bolha é quando o pipeline fica parado esperando o dado que está sendo processado.
+Bolha é quando o pipeline fica parado esperando o dado que está sendo processado.  
 Eliminação é quando o pipeline descarta o dado que está sendo processado.
 
 Aqui, bolha é representado por um traço (—) e eliminação por um asterisco (\*).
