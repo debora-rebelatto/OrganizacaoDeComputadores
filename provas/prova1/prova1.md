@@ -19,7 +19,7 @@ ret_pos:
   add a7, zero, zero
 
 laco:
-  beg zero, a3, out_laco.
+  beq zero, a3, out_laco.
   addi a7, a7, 4
   addi a3, a3, -1
   j laco
