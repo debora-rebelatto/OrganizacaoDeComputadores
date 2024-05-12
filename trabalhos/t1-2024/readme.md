@@ -1,4 +1,5 @@
 # Trabalho 1 - Organização de Computadores
+Aluna: Débora Rebelatto  
 
 1) Implemente uma programa utilizando o ISA RV32I do RISC-V que lê 3 valores (A, B e C) e verifica se os mesmos podem formar um triângulo.
     Dica: quando 'A' é o maior valor, os valores formam um triângulo se A < B+C. Generalizar para quando  'B' ou 'C' é o maior
