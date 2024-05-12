@@ -1,7 +1,7 @@
 .data
     vector: .align 2
     .word -5, 4, 2, -11, 9
-    tamanho: .word 5
+    tamanho: .word 5      
 
 .text
 main:

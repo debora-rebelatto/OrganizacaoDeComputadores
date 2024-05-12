@@ -11,30 +11,18 @@ Exemplos:
 
 [Resposta](./q1.asm)
 
-2) Implemente uma função utilizando o conjunto de instruções RISC-V R32IM que realiza o swap entre duas posições de um vetor de inteiros. A função tem o seguinte protótipo:
+2) Implemente uma função utilizando o conjunto de instruções RISC-V R32IM que verifica se uma string é um palindromo. A função recebe em a0 o endereço inicial da string e em a1 o seu tamanho e retorna se a string é ou não um palindrome em a0 (0-não; 1-sim).
 
-void swap(int & vet, int indice_1, int indice_2);
-
-os parâmetros da função (&vet, indice_1, indice_2) são passados, respectivamente, nos registradores a0 até a2.
-
-Exemplo:
-
-Considerando int vetor[7] = {-10, 8, 11, 16, 15, -6, 22}
-
-ao chamar a função swap com a0 = &vet, a1 = 5 e a2 = 1, ao encerrar a execução da função teremos o vetor assim
-
-vetor[7] = {-10, -6, 11, 16, 15, 8, 22}
-
-[Resposta](./q1.asm)
+[Resposta](./q2.asm)
 
 3) Implemente uma função utilizando o conjunto de instruções RISC-V R32IM que imprime no console o conteúdo de um vetor de inteiros. A função deve receber em a0 o endereço inicial do vetor e em a1 o tamanho do vetor a ser impresso.
 
-[Resposta](./q1.asm)
+[Resposta](./q3.asm)
 
 4) Implemente uma função utilizando o conjunto de instruções RISC-V R32IM que ordena um vetor de inteiros em ordem crescente. A função deve receber em a0 o endereço inicial do vetor e em a1 o tamanho do vetor a ser ordenado.
 
-[Resposta](./q1.asm)
+[Resposta](./q4.asm)
 
 5) Implemente uma função utilizando o conjunto de instruções RISC-V R32IM que lê uma string do teclado e remove todas as vogais presentes na mesma e em seguida imprime a mesma.
 
-[Resposta](./q1.asm)
+[Resposta](./q5.asm)
