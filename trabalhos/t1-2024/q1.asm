@@ -38,24 +38,24 @@ read_c:
 	li a7, 4
 	ecall
 	
-	li a0, 0       
+	li a0, 0
 	la a1, buffer 
 	li a2, 11
-	li a7, 63       
+	li a7, 63
 	ecall
 
 	mv t2, a0
 
 find_biggest:
-	mv s0, t0   
-	blt s0, t1, update_max_t1 
-	blt s0, t2, update_max_t2 
+	mv s0, t0
+	blt s0, t1, update_max_t1
+	blt s0, t2, update_max_t2
 	j find_sum
-	
+
 update_max_t1:
 	mv s0, t1
 	j find_sum
-	
+
 update_max_t2:
 	mv s0, t2
 	j find_sum
