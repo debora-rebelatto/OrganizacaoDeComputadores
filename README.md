@@ -3,6 +3,7 @@
 ## Trabalhos
 
 [Trabalho 1](./trabalhos/t1-2024/readme.md)
+[Trabalho 2 - Assembly](./trabalhos/trabalho_assembly.pdf)
 [Trabalho 1: Conjunto de instruções - armazenamento interno](./trabalhos/trab1.md)  
 [Trabalho 2 - Loop](./trabalhos/trab2-loop.asm)  
 [Trabalho 3 - Vetor](./trabalhos/trab3-vetor.asm)  
