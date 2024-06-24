@@ -48,8 +48,9 @@
 RARS:
 https://github.com/TheThirdOne/rars
 
-Ripes:
-https://github.com/mortbopet/Ripes
+Ripes:  
+https://ripes.me/  
+https://github.com/mortbopet/Ripes  
 
 Cache Simulator:
 http://vhosts.eecs.umich.edu/370simulators/cache/simulator.html
